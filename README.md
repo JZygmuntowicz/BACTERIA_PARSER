@@ -43,10 +43,6 @@ Multi-pass extraction of verbatim morphological sentences
 
 Automatic cleanup of malformed OCR words
 
-Detection of morphology triggers (e.g., trichomes, heterocysts, hyphae)
-
-Strict validation: triggers are only accepted if mini-prompt confirms they refer to the target species
-
 Final curator prompt decides: True / False / UNCLEAR
 
 Writes one JSON report per species to ollama_results/
